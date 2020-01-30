@@ -11,4 +11,4 @@ doc = Nokogiri::HTML(html)
 #   puts course.text.strip
 # end
 
-p doc.css(".headline-26OIBN").name
+p doc.css(".headline-26OIBN")
